@@ -29,3 +29,6 @@ print(data['chapter']['verses'][0].keys(),"\n") # Notice we have to get the chap
 
 print("\n*** We access the 'summary' value within the 'chapter' by using data['chapter']['summary'] : ***\n")
 print(data['chapter']['summary'],"\n")  # Within the 'chapter' value we have additional keys
+
+print("\n*** Print out the text for verse 1 only")
+print(data['chapter']['verses'][0]['text'],"\n") # Notice we have to get the chapter, then verses, then a single verse
